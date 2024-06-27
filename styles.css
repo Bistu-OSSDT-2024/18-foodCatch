@@ -1,0 +1,56 @@
+body {
+    /*设置字体*/
+    font-family: Arial, sans-serif;
+    /*设置背景颜色*/
+    background-color: #f4f4f4;
+    /*设置边框*/
+    margin: 0;
+    padding: 0;
+}
+
+/*注册界面样式*/
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*标题*/
+h1 {
+    /*标题居中*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*表单样式*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*输入框样式*/
+input {
+    width: calc(100% - 12px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/*按钮样式*/
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
