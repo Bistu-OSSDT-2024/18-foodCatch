@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>项目展示</title>
+</head>
+
+<body>
+  <div class="screen">
+    <h1>项目展示</h1>
+    <button class="btn" id="start-btn">玩游戏</button>
+  </div>
+
+  <div class="screen">
+    <h1>选择一种你喜欢的食物，然后尝试抓住它吧</h1>
+    <ul class="insects-list">
+      <li>
+        <button class="choose-insect-btn">
+          <p>热狗</p>
+          <img src="./regou.png" alt="fly">
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>肯德基</p>
+          <img src="./kfc.png" alt="mosquito" />
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>可乐</p>
+          <img src="./coke.png" alt="spider" />
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>炸鸡</p>
+          <img src="./zhaji.png" alt="roach" />
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen game-container" id="game-container">
+    <h3 id="time" class="time">时间: 00:00</h3>
+    <h3 id="score" class="score">分数: 0</h3>
+    <h5 id="message" class="message">
+      你生气了吗？？？<br>
+      你在玩一个不可能的游戏！！！
+    </h5>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
